@@ -1,0 +1,38 @@
+Date of GitLab tutorials completion: October 8, 2020
+Date when GitHub account was set up: I have had this account for quite a while. I'd estimate that I created the account sometime in late 2018.
+
+1. Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 732 bytes | 366.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/ChristelleNieves/assignment2.git
+   f4975e5..cc2b94f  master -> master
+
+2. There have been 9 commits so far. Command used: git rev-list --count HEAD
+
+3. The README file was last modified: Thu Oct 8 19:43:21 2020 -0400. The command I used to get this info: git log 
+
+4. Branches are used to point to a specific commit, and also to separate different projects so that it is easier to push out only finished projects.
+
+5. Git log displays a list of the project history and allows you to filter results and search for specific changes. Git status lets you inspect the
+	working directory. Git log only operated on the committed history.
+
+6. git log Vehicle.h
+
+7. git log --grep="file"  
+
+8. I) Inheritance is the mechanism of basing an object or class upon another object or class, retaining similar implementation.
+   II) Polymorphism is the concept that refers to the ability of a variable, function, or object to take on multiple forms.
+   III) Encapsulation is the bundling of data, along with the methods that operate on that data, into a single unit.
+
+9. The Dictator & Lieutenants workflow is based upon the concept of having a hierarchy of various integration managers that are in charge of certain
+	parts of the repository.
+   The Integration-Manager workflow allows developers to have write access to their own public repositories that represent the official project. In this workflow,
+	developers must send a request to the maintainer ofthe main project to pull in their changes.
+
+10. A team of 100 developers would benefit from using the Dictator and Lieutenants workflow because it is generally used by huge projects with hundreds of collaborators.
+	This workflow benefits largs projects because it allows the project leader (dictator) to delegate much of the work and collect large subsets of code  at
+	multiple points before integrating them.
